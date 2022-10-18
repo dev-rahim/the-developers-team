@@ -1,0 +1,22 @@
+.Header {
+    background: rgb(2, 0, 36);
+    color: whitesmoke;
+    /* height: 10vh; */
+    /* display: flex; */
+    text-align: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    opacity: .9;
+    padding: 20px;
+
+}
+
+.Header h1 {
+    margin: 0px;
+    line-height: 2em;
+}
+
+.Header p {
+    margin: 0px;
+}

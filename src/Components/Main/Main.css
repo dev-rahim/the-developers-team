@@ -1,0 +1,12 @@
+.Main {
+    display: grid;
+    grid-template-columns: 68% 29%;
+    /* grid-gap: 20px; */
+    justify-content: space-between;
+}
+
+.Cart_container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}

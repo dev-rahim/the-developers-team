@@ -20,7 +20,7 @@
     {
         "id": 3,
         "name": "Rafael Caferati",
-        "desegnation": "front-end, back-end ",
+        "designation": "front-end, back-end ",
         "img": "https://avatars.githubusercontent.com/u/8358797?v=4",
         "salary": 20000,
         "nationality": "US",
@@ -29,7 +29,7 @@
     {
         "id": 4,
         "name": "Emily Ridge",
-        "desegnation": "WordPress developer and designer",
+        "designation": "WordPress developer and designer",
         "img": "http://www.emilyridge.ie/wp-content/uploads/freelance-web-developer-emily-ridge.jpg",
         "salary": 9000,
         "nationality": "Ireland",
@@ -38,7 +38,7 @@
     {
         "id": 5,
         "name": "Ian Lunn",
-        "desegnation": "Front-end development",
+        "designation": "Front-end development",
         "img": "https://pbs.twimg.com/profile_images/2685951023/166513ffadbb59726d83418ed17d714c_400x400.jpeg",
         "salary": 8000,
         "nationality": "UK",
@@ -47,7 +47,7 @@
     {
         "id": 6,
         "name": "Pierre Nel",
-        "desegnation": " front-end, back-end, and more",
+        "designation": " front-end, back-end, and more",
         "img": "https://pbs.twimg.com/profile_images/1465408709472014352/DmSdjuaQ_400x400.jpg",
         "salary": 15000,
         "nationality": "London",
@@ -56,7 +56,7 @@
     {
         "id": 7,
         "name": "Timmy OMahony",
-        "desegnation": "web & soft­ware devel­op­er",
+        "designation": "web & soft­ware devel­op­er",
         "img": "https://cdn.timmyomahony.com/assets/_1280x1918_crop_center-center_82_line/timmy-omahony.f1612820065.jpg.webp?mtime=20200723232729&focal=48.47%25+34.3%25&tmtime=20210208213435",
         "salary": 12000,
         "nationality": "Ireland",
@@ -65,7 +65,7 @@
     {
         "id": 8,
         "name": "Ben Adam",
-        "desegnation": "UX/UI design and front-end development",
+        "designation": "UX/UI design and front-end development",
         "img": "https://media-exp1.licdn.com/dms/image/C4D03AQGBz8nJk6uVDg/profile-displayphoto-shrink_800_800/0/1517551277270?e=1671667200&v=beta&t=HvQj_siP5fqMjp_S_WYTRUULnHoCHQOuYaT24-qTYXU",
         "salary": 12000,
         "nationality": "US",
@@ -74,7 +74,7 @@
     {
         "id": 9,
         "name": "Daniel Fischer",
-        "desegnation": "front-end, back-end (Ruby on Rails)",
+        "designation": "front-end, back-end (Ruby on Rails)",
         "img": "https://media-exp1.licdn.com/dms/image/C5603AQHubLhz9C16DA/profile-displayphoto-shrink_800_800/0/1569267067757?e=1671667200&v=beta&t=g1ZBSGpUwY_HRisHlpuaIgs9t-GMwiwyWrn-84FpaxU",
         "salary": 20000,
         "nationality": "US",
@@ -83,7 +83,7 @@
     {
         "id": 10,
         "name": "SEB KAY",
-        "desegnation": "web design and WordPress development",
+        "designation": "web design and WordPress development",
         "img": "https://media-exp1.licdn.com/dms/image/C4E03AQGQ3RhKUxGKCg/profile-displayphoto-shrink_800_800/0/1621284540257?e=1671667200&v=beta&t=pu84X6nC_hYW1rfqZIn6V8IaOLunEY9JjPIzZaUor7M",
         "salary": 12000,
         "nationality": "UK",
