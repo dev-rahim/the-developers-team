@@ -1,7 +1,9 @@
 .Programmer {
-    background-color: blanchedalmond;
+    background: rgb(2, 0, 36);
     border-radius: 15px;
     padding: 20px;
+    border: 1px solid;
+    color: #eee;
 }
 
 .cart img {
@@ -10,11 +12,41 @@
     border-radius: 50%;
 }
 
+.Cart_Content {
+    margin: 0 auto;
+}
+
 .Cart_Content p {
-    width: fit-content;
-    display: flex;
-    justify-content: space-between;
+    /* width: fit-content; */
+    display: grid;
+    /* justify-content: ; */
     text-align: left;
     /* line-height: .8em; */
     margin: 5px 0;
+    display: grid;
+    grid-template-columns: 40% 60%;
+}
+
+.Cart_Content p strong {}
+
+.cart button {
+    background-image: linear-gradient(to right, #76b852 0%, #8DC26F 51%, #76b852 100%);
+    margin: 0 auto;
+    padding: 15px 45px;
+    margin-top: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    /* box-shadow: 0 0 20px #eee; */
+    border-radius: 10px;
+    display: block;
+}
+
+.cart button:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
 }

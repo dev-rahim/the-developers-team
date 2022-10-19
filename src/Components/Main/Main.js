@@ -9,15 +9,25 @@ const Main = () => {
             .then(res => res.json())
             .then(data => setPersons(data))
     }, [])
+
+    const [addedPerson, setAddedPerson] = useState([])
+    const handleAdd = (name) => {
+        // console.log(name)
+        setAddedPerson([...addedPerson, name])
+        // console.log(addedPerson);
+
+    }
     return (
         <div className='Main'>
             <div className='Cart_container'>
                 {
-                    persons.map(person => <Programmer person={person} />)
+                    persons.map(person => <Programmer key={person.id} handleAdd={handleAdd} person={person} />)
                 }
             </div>
             {/* <Programmer /> */}
-            <Sidebar />
+            <div>
+                <Sidebar addedPerson={addedPerson} />
+            </div>
         </div>
     );
 };
