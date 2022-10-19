@@ -10,14 +10,17 @@ const Sidebar = (props) => {
     console.log(total);
     return (
         <div className='SideBar'>
-            <div>
+            <div className='Sidebar-header'>
                 <h2>Total Added:{addedPerson.length}</h2>
                 <h4>Total Cost:${total}</h4>
             </div>
             {
                 props.addedPerson.map(person => <Items key={person.id} name={person.name} img={person.img} />)
             }
-            <button></button>
+
+            <div className='btn-container'>
+                <button className='hire-btn'>Hire Now</button>
+            </div>
         </div>
     );
 };

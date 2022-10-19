@@ -6,7 +6,7 @@ const Items = (props) => {
         <div className='addedPersonCard'>
             <img src={props.img} alt="" />
             <h4>{props.name}</h4>
-            <button>X</button>
+            <button className='items-remove-btn' >X</button>
         </div>
     );
 };
