@@ -15,7 +15,7 @@ const Programmer = (props) => {
                     <p><strong>Country:</strong>{nationality}</p>
                 </div>
                 <button onClick={() => props.handleAdd(props.person)}>
-                    Add To Team
+                    <span className='button-add-icon'><i class="fa-solid fa-plus"></i></span> Add To Team
                 </button>
             </div>
         </div>
